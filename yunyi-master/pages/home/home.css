@@ -1,0 +1,144 @@
+body{
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+body a{
+    text-decoration: none;
+    color: #797979;
+}
+header{
+    background-color: #00ccff;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #f2f2f2;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.logo{
+    margin: 10px 0;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    height: 100px;
+    position: relative;
+}
+.logo img{
+    float: left;
+    margin: 25px;
+}
+.logo p{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    
+}
+.logo a{
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    font-size: 20px;
+}
+
+.business{
+    margin-left: -40px;
+    
+}
+.business li{
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    background-color: #00ccff;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.business li a{
+    color: #f2f2f2;
+}
+.business li:nth-child(2){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.statics li:nth-child(2){
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+.statics{
+    margin-left: -40px;
+}
+.statics li{
+    float: right;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+    background-color: white;
+    color: #797979;
+    margin: 30px 0 50px 0;
+}
+.statics li img{
+    padding-top: 20px;
+}
+
+.company p{
+    float: left;
+    padding: 40px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4; 
+    background-color: white;
+}
+.company a{
+   float: left;
+   padding: 40px;
+   padding-right: 90px;
+   margin-top: 16px;
+   border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4; 
+    border-right: 1px solid #e4e4e4;
+    background-color: white;
+}
+
+.loginTime p{
+    margin-top: 0px;
+    float: left;
+    padding: 40px;
+    margin-left: -143px;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4; 
+    background-color: white;
+}
+.loginTime a{
+   float: left;
+   padding: 40px;
+   padding-right: 154px;
+   border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4; 
+    border-right: 1px solid #e4e4e4;
+    background-color: white;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 540px;
+    margin-left: -40px;
+}
+footer li{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    height: 40px;
+    border: 1px solid black;
+    list-style: none;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+}
