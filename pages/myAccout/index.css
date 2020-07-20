@@ -1,0 +1,59 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;color: black;}
+body{font-family: '微软雅黑';width: 500px;background-color: #f2f2f2;border: 1px solid #e4e4e4;}
+
+header{
+    background-color: #00ccff;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+header a{
+    position: absolute;
+    left: 10px;
+}
+.company{
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.name{
+    display: inline-block;
+    margin-left: 10px;
+    border-bottom: 1px solid #E4E4E4;
+    padding: 10px;
+}
+.info{
+    display: inline-block;
+    border-bottom: 1px solid #E4E4E4;
+    padding: 10px;
+    width: 380px;
+}
+.details{
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.option{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.option a{
+    float: right;
+    margin-top: -20px;
+}
+main button{
+    display: block;
+    background-color: #33ccff;
+    color: white;
+    width: 480px;
+    margin: 10px;
+    height: 40px;
+    border: white;
+    cursor: pointer;
+}
